@@ -30,11 +30,11 @@
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a class="link-service" href="#services">Services</a></li>
-						<li><a class="link-facts" href="#facts">Facts</a></li>
-						<li><a class="link-portfolio" href="#portfolio">Portfolio</a></li>
-						<li><a class="link-clients" href="#clients">Clients</a></li>
-						<li><a class="link-contact" href="#contact">Contact</a></li>
+						<li><a class="link-wel" href="">Introduction</a></li>
+						<li><a class="link-facts" href="#facts">Data Collection</a></li>
+						<li><a class="link-portfolio" href="#portfolio">Solution & Results</a></li>
+						<li><a class="link-clients" href="#clients">Final Report</a></li>
+						<li><a class="link-contact" href="#contact">About Us</a></li>
 					</ul>
 				</div>
 				</div>
@@ -45,7 +45,7 @@
 	<!-- WELCOME TEXT -->
 	<div class="main-content">
 	<div class="fluid-container">
-		<div class="section-welcome">
+		<div class="section-welcome" id = "welcome">
 			<div class="row">
             	<div class="col-md-4 text-center">
 					<img src="img/nba-logo.png" class="img-responsive animated fadeInLeft" alt="Time is happiness">
@@ -58,13 +58,15 @@
                     </p>
 					<p class="animated fadeInRight">In addition, NBA game results, especially the score differences, are often exploited by lottery companies, which means these predictions could have business value. As long as we have a well-performed predictor, we can not only foresee the result of a single game, but also apply it so that people can make money from lotteries.
 					</p>
+					<p class="animated fadeInRight">In this project, our target is to predict the score difference between two arbitrary teams. However, we won’t provide the difference as a precise number, instead, a difference range the difference will be in is rendered.
+					</p>
                     <br>
 					<!-- <a href="#" class="button-grey animated fadeInUp">Learn More</a> -->
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- SERVICES -->
+	<!-- SERVICES 
 	<div class="fluid-container">
 		<div class="section-services" id="services">
 			<div class="row">
@@ -114,20 +116,22 @@
 			</div>
 		</div>
 	</div>
-
+	-->
 	<!-- FUN FACTS -->
 	<div class="fluid-container animated flipInX" id="facts">
-		<div class="row">
+		 <div class="row">
 			<div class="col-md-12 text-right">
 				<div class="section-header facts-header">
-					<h3>Some fun facts</h3>
+					<h3>Data collections</h3>
 				</div>
 			</div>
-		</div>
+		</div> 
 		<div class="section-facts">
 			<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-12 col-lg-3 text-center">
-					<div class="counter-item">
+				<div class="col-md-12 text-left">
+					<p id = "fontColor">We collect data from <a href="http://www.basketball-reference.com/">BASKETBALL-REFERENCE</a>, a professional basketball database. To predict sports game results, data amount is considered very important so that we pick all game records over the last four NBA regular seasons – 5000 records in all. In addition, we are provided more than 20 attributes for each game record by this website, which helps us a lot in creating data models.
+					</p>
+					<!-- <div class="counter-item">
 						<div class="counter-inner">
 							<div class="counter-body">
 								<h2 class="start-count" data-count="1604">0</h2>
@@ -135,40 +139,7 @@
 								<div class="end-count"></div>
 							</div>				
 						</div>
-					</div>
-				</div> <!-- .counter-item -->
-				<div class="col-md-3 col-sm-6 col-xs-12 col-lg-3 text-center">
-					<div class="counter-item">
-						<div class="counter-inner">
-							<div class="counter-body">
-								<h2 class="start-count" data-count="21">0</h2>
-								<h6>Team Members</h6>
-								<div class="end-count"></div>
-							</div>				
-						</div>
-					</div>
-				</div> <!-- .counter-item -->
-				<div class="col-md-3 col-sm-6 col-xs-12 col-lg-3 text-center">
-					<div class="counter-item">
-						<div class="counter-inner">
-							<div class="counter-body">
-								<h2 class="start-count" data-count="302">0</h2>
-								<h6>Satisfied Clients</h6>
-								<div class="end-count"></div>
-							</div>				
-						</div>
-					</div>
-				</div> <!-- .counter-item -->
-				<div class="col-md-3 col-sm-6 col-xs-12 col-lg-3 text-center">
-					<div class="counter-item">
-						<div class="counter-inner">
-							<div class="counter-body">
-								<h2 class="start-count" data-count="946">0</h2>
-								<h6>Cups of Coffee</h6>
-								<div class="end-count"></div>
-							</div>				
-						</div>
-					</div>
+					</div> -->
 				</div> <!-- .counter-item -->
 			</div>
 		</div>
@@ -179,60 +150,43 @@
 		<div class="row">
 			<div class="col-md-12 text-left">
 				<div class="section-header portfolio-header">
-					<h3>Our Lovely Work</h3>
+					<h3>solution & results</h3>
 				</div>
 			</div>
 		</div>
 		<div class="section-portfolio" >
-			<div class="row portfolio-holder">
-				<article class="portfolio col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="img/portfolio/1.jpg" alt="">
-					</div>
-					<div class="portfolio-overlay first">
-						<a href="#"><h4 class="entry-title">DIGITAL PHOTO</h4></a>
-					</div>
-				</article>
-				<article class="portfolio col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="img/portfolio/2.jpg" alt="">
-					</div>
-					<div class="portfolio-overlay second">
-						<a href="#"><h4 class="entry-title">QUALITY IMAGING</h4></a>
-					</div>
-				</article>
-				<article class="portfolio col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="img/portfolio/3.jpg" alt="">
-					</div>
-					<div class="portfolio-overlay third">
-						<a href="#"><h4 class="entry-title">ANIMATIONS</h4></a>
-					</div>
-				</article>
-				<article class="portfolio col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="img/portfolio/4.jpg" alt="">
-					</div>
-					<div class="portfolio-overlay fourth">
-						<a href="#"><h4 class="entry-title">HI FI SOUND</h4></a>
-					</div>
-				</article>
-				<article class="portfolio col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="img/portfolio/5.jpg" alt="">
-					</div>
-					<div class="portfolio-overlay fifth">
-						<a href="#"><h4 class="entry-title">BEST IN TIME</h4></a>
-					</div>
-				</article>
-				<article class="portfolio col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="img/portfolio/6.jpg" alt="">
-					</div>
-					<div class="portfolio-overlay sixth">
-						<a href="#"><h4 class="entry-title">DELICIOUS ONE</h4></a>
-					</div>
-				</article>
+			<div class="row">
+				<div class="col-md-12 text-left">
+						<h4 id = "fontColor" class = "text-center">FEATURE SELECTION & DATA PROCESSING</h4>
+						<p id = "fontColor" >Feature selection and data processing are two key parts of our data model as it directly affects our model accuracy. In this project, 27 features are chosen manually to be our data attributes and several data processing techniques are employed to optimize our model.
+						</p>
+						<h4 id = "fontColor" class = "text-left">FEATURE SELECTION</h4>
+						<p id = "fontColor" >Specifically, we manually choose FG, FGA, FG%, 2P, 2PA, 2P%, 3P, 3PA, 3P%, FT, FTA, FT%, PTS, ORtg, FTr, 3PAr, TS%, eFG%, FT/FGA, ORB, DRB, TRB, AST, STL, BLK, TOV and PF these 27 features as our data attributes.
+						</p>					
+						<h4 id = "fontColor" class = "text-left">DATA PROCESSING</h4>
+						<div class="col-md-12 text-center" id = "picMargin">
+							<img src="img/attribute.png">
+							<p id = "fontColor">Data tuple format</p>
+						</div>					
+						<p id = "fontColor" >Data processing is one of the parts of our project that contains most workload. The reasons for that we cannot simply use the game records directly provided by online database are:
+						</p>
+						<li><p id = "fontColor" >
+               			We need to generate a small database for each single game record.
+						</p></li>
+						<li><p id = "fontColor" >
+               			We need to give each past games different affect weight according to how far away a game is before the target game.
+						</p></li> 
+						<li><p id = "fontColor" >
+               			We try to unify the attribute difference scale in number.
+						</p></li>
+						<h4 id = "fontColor" class = "text-left">CLASSIFYING RESULT</h4>
+						<p id = "fontColor" >For class result, as we mentioned, we calculate the score difference of two teams and then classify the results based on their values. The result is shwon in the histogram table below. We can see that different algorithms/models appears to have different efficiencies on our data model.
+						</p>
+						<div class="col-md-12 text-center" id = "picMargin">
+							<img src="img/result-table.png" height= "360px" width= "600px">
+							<p id = "fontColor">Result Table</p>
+						</div>						
+				</div>
 			</div>
 		</div>
 	</div>
@@ -242,30 +196,22 @@
 		<div class="row">
 			<div class="col-md-12 text-right">
 				<div class="section-header clients-header">
-					<h3>What Clients Say</h3>
+					<h3>Final Report</h3>
 				</div>
 			</div>
 		</div>
 		<div class="section-clients">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<div class="client-icon">
-						<i class="i fa fa-quote-left"></i>
+					<div id = "pdfIcon" class="col-md-12 text-center">
+						<a href="pdf/report.pdf"><img src="img/pdf-icon.png" alt="pic" width="200px" height="200px"></a>
 					</div>
-					<ul class="client-slide">
-						<li>
-							<p>Odit nesciunt, voluptates optio numquam error, aut quis eius nostrum. Impedit eaque corrupti quis facere nobis, quam commodi. Repellat vel suscipit ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<h4>Cindy Three</h4>
-						</li>
-						<li>
-							<p>Impedit eaque corrupti quis facere nobis, quam commodi. Repellat vel suscipit ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt, voluptates optio numquam error, aut quis eius nostrum.</p>
-							<h4>Linda Two</h4>
-						</li>
-						<li>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt, voluptates optio numquam error, aut quis eius nostrum. Impedit eaque corrupti quis facere nobis, quam commodi. Repellat vel suscipit ut.</p>
-							<h4>Marry One</h4>
-						</li>
-					</ul>
+						<p>Historical data can be used in future score difference prediction. In this project, we employ more than ten attributes and several machine learning algorithms to predict score difference in a single game.
+						</p>
+						<h4>Index Terms</h4>
+						<p>
+							— Machine Learning, NBA, score prediction, Bayes Net, Decision Tree, KNN, Logistic Regression, Weka
+						</p>
 				</div>
 			</div>
 		</div>
@@ -282,44 +228,38 @@
 		</div>
 		<div class="section-contact">
 			<div class="row">
-				<div class="col-md-5 col-sm-12 col-xs-12">
-					<form action="#" method="post" id="contact-form">
-						<fieldset>
-							<label for="name">Name:</label>
-							<input type="text" name="name" id="name">
-						</fieldset>
-						<fieldset>
-							<label for="email">Email Address:</label>
-							<input type="email" name="email" id="email">
-						</fieldset>
-						<fieldset>
-							<label for="phone">Phone Number:</label>
-							<input type="tel" name="phone" id="phone">
-						</fieldset>
-						<fieldset>
-							<label for="message">Describe your project:</label>
-							<textarea name="message" id="message" rows="4"></textarea>
-						</fieldset>
-						<fieldset>
-							<input type="submit" class="button-dark" value="Send Message">
-						</fieldset>
-					</form>
-				</div>
-				<div class="col-md-7 col-sm-12 col-xs-12">
-					<div class="contact-map">
-						Maps
-					</div>
-					<div class="contact-infos">
-						<div class="row">
-							<div class="col-md-6">
-								<p><strong>Email:</strong> <a href="#">info@company.com</a></p>
-								<p><strong>Phone:</strong> 080-070-0120</p>
-							</div>
-							<div class="col-md-6">
-								<p>Qui laudantium dignissimos eaque maxime obcaecati animi, maiores delectus voluptatum possimu.</p>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-12 text-left">
+						<h4  class = "text-left">THE AUTHORS:</h4>
+						<p>
+               			<b>Xiao Fang:</b> A first year Master student in computer science program at Northwestern University
+						</p>
+						<p>
+						Email: xiaofang2016@u.northwestern.edu
+						</p>
+						<p>
+               			<b>Da Li:</b> A first year Master student in electrical engineering program at Northwestern University
+						</p>
+						<p>
+						Email: dali2016@u.northwestern.edu
+						</p> 
+						<p>
+               			<b>Yang Hong:</b> A first year Master student in computer science program at Northwestern University
+						</p>
+						<p>
+						Email: yanghong2014@u.northwestern.edu
+						</p>
+						<p>
+               			<b>Guanda Li:</b>  A first year Master student in computer science program at Northwestern University         
+						</p>
+						<p>
+						Email: guandali2016@u.northwestern.edu
+						</p>	
+						<h4  class = "text-left">THE COURSE -- EECS 349:</h4>
+						<p>This project and website were developed as part of the curriculum for Northwestern Univeristity's <a href="http://www.cs.northwestern.edu/~ddowney/courses/349_Spring2015/">EECS 349 course</a> taught during the winter quarter of 2014 by Professor <a href="http://www.cs.northwestern.edu/~ddowney/">Professor Doug Downey</a>.
+						</p>
+						<h4 class = "text-left">FUTURE WORK</h4>					
+						<p>In the future, we first will read more papers related to this topic. This will give us more ideas about how to improve our data set and machine learning algorithms. Besides, more test experiments are needed to find the best combinations of our current available method as we do not have enough time to find the global-best method combination for this project. 
+						</p>						
 				</div>
 			</div>
 		</div>
@@ -333,7 +273,7 @@
 			</a>
 			<div class="row">
 				<div class="col-md-6 col-sm-6 col-xs-12 padding-left-0">
-					<p class="copyright">Copyright &copy; 2084 Company Name | More Templates <a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+					<p class="copyright">Copyright &copy; Team name: <a href="http://www.mycodes.net/" target="_blank">Big 4</a></p>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12 padding-right-0">
 					<ul class="social">

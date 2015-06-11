@@ -324,6 +324,7 @@ img {
 }
 
 .img-responsive {
+  margin-top: 100px;
   display: block;
   width: 100% \9;
   max-width: 100%;
@@ -6065,6 +6066,10 @@ a[class*=button-].button-light,input[class*=button-].button-light,button[class*=
   color: #fff;
 }
 
+.navbar-default .navbar-nav>li>a.link-wel {
+  background-color: #cf6fc1;
+}
+
 .navbar-default .navbar-nav>li>a.link-service {
   background-color: #cf6fc1;
 }
@@ -6215,6 +6220,10 @@ h2.start-count {
   display: inline-block;
   padding-bottom: 20px;
   border-bottom: 2px solid #fff;
+}
+
+#fontColor {
+  color: white;
 }
 
 .section-portfolio {
@@ -6574,4 +6583,13 @@ h2.start-count {
 .bx-wrapper .bx-pager.bx-default-pager a:hover {
   background: #fff;
   height: 7px;
+}
+
+#pdfIcon{
+  margin-bottom: 20px;
+}
+
+#picMargin{
+  margin-bottom: 20px;
+  margin-top: 20px; 
 }
